@@ -399,8 +399,8 @@ def goal():
     ekran.blit(usr2Score, (screen.width / 2 + 10, 73))
 
 def superPowerSelection():
-    #powers=['fireball','iceball','smallergoal','biggergoal','biggerball','smallerball','unstoppebleball','biggerplayer','smallerplayer']
-    powers = ['smallergoal']
+    powers=['fireball','iceball','smallergoal','biggergoal','biggerball','smallerball','unstoppebleball','biggerplayer','smallerplayer']
+    #powers = ['smallergoal']
     if pitch.time % 30 == 1 and superPower.usable == False and pitch.Santra==False:
         superPower.usable = True
         superPower.PowerName = random.choice(powers)
